@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stworka | test-task</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="checklist">
+          <div class="checklist__wrapper">
+            <div class="checklist__circle">
+              <svg width="60" height="60" viewBox="0 0 60 60">
+                <circle
+                  r="29.5"
+                  cx="30"
+                  cy="30"
+                  stroke="#9abcfa"
+                  stroke-width="1"
+                  fill="transparent"
+                />
+                <circle
+                  class="checklist__circle-progress"
+                  r="29.5"
+                  cx="30"
+                  cy="30"
+                  stroke="#ffffff"
+                  fill="transparent"
+                  stroke-width="2"
+                  strokeLinecap="round"
+                  stroke-dasharray="251.2px"
+                  stroke-dashoffset="246.408px"
+                />
+              </svg>
+              <p class="checklist__numbers">0/7</p>
+            </div>
+            <div class="checklist__col">
+              <div class="checklist__box">
+                <p class="checklist__subtitle">Чеклист</p>
+              </div>
+              <h1 class="checklist__title">Выполнено: 0 из 7 действий</h1>
+              <p class="checklist__description">
+                Следующее действие: Созвониться с клиентом до 23.05.24 12:00
+              </p>
+            </div>
+          </div>
+          <button class="checklist__btn">Открыть чеклист</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
